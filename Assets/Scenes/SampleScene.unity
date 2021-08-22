@@ -184,7 +184,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8f3ece13d48e3e9448baa12c90628e3c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.5528606
+      value: 1.573283
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8f3ece13d48e3e9448baa12c90628e3c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -192,27 +192,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8f3ece13d48e3e9448baa12c90628e3c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.8459206
+      value: -4.8694544
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8f3ece13d48e3e9448baa12c90628e3c, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6841322
+      value: 0.7061214
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8f3ece13d48e3e9448baa12c90628e3c, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.6841324
+      value: -0.70612204
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8f3ece13d48e3e9448baa12c90628e3c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.17878187
+      value: 0.03731129
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8f3ece13d48e3e9448baa12c90628e3c, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.17878187
+      value: 0.037311308
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8f3ece13d48e3e9448baa12c90628e3c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -89.98
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8f3ece13d48e3e9448baa12c90628e3c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -220,7 +220,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8f3ece13d48e3e9448baa12c90628e3c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 29.291
+      value: 6.049
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 8f3ece13d48e3e9448baa12c90628e3c, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -235,6 +235,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2100000, guid: 3f7cd5c523298f5478ff7d62d4d2ce7b, type: 2}
     - target: {fileID: -7511558181221131132, guid: 8f3ece13d48e3e9448baa12c90628e3c, type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9108391d534e3844b80d933fefce3a17, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 8f3ece13d48e3e9448baa12c90628e3c, type: 3}
       propertyPath: m_Materials.Array.data[4]
       value: 
       objectReference: {fileID: 2100000, guid: 556dacdbbd6f4ee4c87a76e1f0e6ac0c, type: 2}
@@ -245,7 +249,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 8f3ece13d48e3e9448baa12c90628e3c, type: 3}
       propertyPath: m_Materials.Array.data[6]
       value: 
-      objectReference: {fileID: 2100000, guid: 9cda32133d3916b44a015291f188ff08, type: 2}
+      objectReference: {fileID: 2100000, guid: 732d0b6cf5624964eba8e97899f98f89, type: 2}
     - target: {fileID: -7511558181221131132, guid: 8f3ece13d48e3e9448baa12c90628e3c, type: 3}
       propertyPath: m_Materials.Array.data[7]
       value: 
@@ -253,7 +257,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 8f3ece13d48e3e9448baa12c90628e3c, type: 3}
       propertyPath: m_Materials.Array.data[8]
       value: 
-      objectReference: {fileID: 2100000, guid: df3f4d1dce4ade241a898f6a26a33d58, type: 2}
+      objectReference: {fileID: 2100000, guid: 556dacdbbd6f4ee4c87a76e1f0e6ac0c, type: 2}
     - target: {fileID: -7511558181221131132, guid: 8f3ece13d48e3e9448baa12c90628e3c, type: 3}
       propertyPath: m_Materials.Array.data[9]
       value: 
@@ -478,7 +482,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 2
+  m_Intensity: 5.79
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.802082
