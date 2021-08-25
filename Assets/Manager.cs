@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-
+using Cinemachine;
 public class Manager : MonoBehaviour
 {
     public GameObject  TextProDude;
@@ -20,6 +20,11 @@ public class Manager : MonoBehaviour
     public GameObject bubblesfx;
     public GameObject firefx;
     public GameObject nukefx; 
+
+    public CinemachineVirtualCamera vcam1;
+    public CinemachineVirtualCamera vcam2;
+
+
 
 
 
@@ -62,7 +67,7 @@ public class Manager : MonoBehaviour
             ragedButter.SetActive(true);
             rageText.SetActive(false);
             Invoke("sparksFX", 0);
-            Invoke("bubblesFX", 5.0f);
+            Invoke("bubblesFX", 3.0f);
             Invoke("fireFX", 10.0f);
             Invoke("nukeStart", 15.0f);
 
@@ -103,8 +108,8 @@ public class Manager : MonoBehaviour
     {
         Instantiate(nukefx, new Vector3(186.6f, 93.6f, -64.29f), Quaternion.identity);
         Instantiate(nukefx, new Vector3(186.6f, 93.6f, -64.29f), Quaternion.identity);
-        Instantiate(nukefx, new Vector3(186.6f, 93.6f, -64.29f), Quaternion.identity);
-
+        //Instantiate(nukefx, new Vector3(186.6f, 93.6f, -64.29f), Quaternion.identity);
+        vcam1.Priority = 1;
     }
 
 
