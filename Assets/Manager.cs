@@ -11,17 +11,32 @@ public class Manager : MonoBehaviour
     public GameObject butterPlate;
     private int passCount;
 
+
     void Start()
     {
-        Invoke("ButterPassGirl", 5);
+        InvokeRepeating("ButterPassGirl", 5, 4);
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Z) && ButterPass.girl == false)
         {
+            ButterPass.girl = true;
+ 
+        }
 
-        }   
+           if (Input.GetKeyDown(KeyCode.X))
+             {
+                    ButterPass.girl = false;
+            }
+
+
+        /*if (Input.GetKeyDown(KeyCode.Space) && ButterPass.girl == true) 
+        {
+            ButterPass.girl = false;
+        } */
+  
+
 
     }
 
@@ -29,6 +44,12 @@ public class Manager : MonoBehaviour
     {
         TextProGirl.SetActive(true);
         butterPassText.SetActive(true);
+
+    }
+
+    public void ButterPassDude()
+    {
+
     }
 
 }
