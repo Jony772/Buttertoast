@@ -16,6 +16,13 @@ public class Manager : MonoBehaviour
     public GameObject ragedButter;
     public bool isRaged = false;
 
+    public GameObject sparksfx;
+    public GameObject bubblesfx;
+    public GameObject firefx;
+    public GameObject nukefx; 
+
+
+
 
     void Start()
     {
@@ -43,7 +50,7 @@ public class Manager : MonoBehaviour
             ButterPass.girl = false;
         } */
   
-        if(passCount > 10)
+        if(passCount > 10 && isRaged == false)
         {
             butterPassText.SetActive(false);
             rageText.SetActive(true);
@@ -53,6 +60,13 @@ public class Manager : MonoBehaviour
         {
             calmButter.SetActive(false);
             ragedButter.SetActive(true);
+            rageText.SetActive(false);
+            Invoke("sparksFX", 0);
+            Invoke("bubblesFX", 5.0f);
+            Invoke("fireFX", 10.0f);
+            Invoke("nukeStart", 15.0f);
+
+
             isRaged = true;
         }
 
@@ -69,5 +83,30 @@ public class Manager : MonoBehaviour
     {
         TextProDude.SetActive(true);
     }
+
+    public void sparksFX()
+    {
+        sparksfx.SetActive(true);
+    }
+
+    public void bubblesFX()
+    {
+        bubblesfx.SetActive(true);
+    }
+
+    public void fireFX()
+    {
+        firefx.SetActive(true);
+    }
+
+    public void nukeStart()
+    {
+        Instantiate(nukefx, new Vector3(186.6f, 93.6f, -64.29f), Quaternion.identity);
+        Instantiate(nukefx, new Vector3(186.6f, 93.6f, -64.29f), Quaternion.identity);
+        Instantiate(nukefx, new Vector3(186.6f, 93.6f, -64.29f), Quaternion.identity);
+
+    }
+
+
 
 }
