@@ -14,6 +14,8 @@ public class Manager : MonoBehaviour
 
     public GameObject calmButter;
     public GameObject ragedButter;
+    public GameObject gameButter;
+
     public bool isRaged = false;
 
     public GameObject sparksfx;
@@ -24,6 +26,7 @@ public class Manager : MonoBehaviour
     public CinemachineVirtualCamera vcam1;
     public CinemachineVirtualCamera vcam2;
 
+    private bool nukeChecker = true;
 
 
 
@@ -61,7 +64,7 @@ public class Manager : MonoBehaviour
             rageText.SetActive(true);
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && passCount > 10)
+        if (Input.GetKeyDown(KeyCode.Space) && passCount > 10 && nukeChecker == true)
         {
             calmButter.SetActive(false);
             ragedButter.SetActive(true);
@@ -70,6 +73,7 @@ public class Manager : MonoBehaviour
             Invoke("bubblesFX", 3.0f);
             Invoke("fireFX", 10.0f);
             Invoke("nukeStart", 15.0f);
+            Invoke("nukeStart2", 14.0f);
 
 
             isRaged = true;
@@ -104,12 +108,22 @@ public class Manager : MonoBehaviour
         firefx.SetActive(true);
     }
 
-    public void nukeStart()
+    public void nukeStart2()
     {
         Instantiate(nukefx, new Vector3(186.6f, 93.6f, -64.29f), Quaternion.identity);
+    }
+    public void nukeStart()
+    {
+        if(nukeChecker == true)
+        {   
         Instantiate(nukefx, new Vector3(186.6f, 93.6f, -64.29f), Quaternion.identity);
-        //Instantiate(nukefx, new Vector3(186.6f, 93.6f, -64.29f), Quaternion.identity);
+        Instantiate(nukefx, new Vector3(186.6f, 90.6f, -64.29f), Quaternion.identity);
+        Instantiate(nukefx, new Vector3(180.6f, 90.6f, -64.29f), Quaternion.identity);
+        }
+        nukeChecker = false;
         vcam1.Priority = 1;
+        ragedButter.SetActive(false);
+        gameButter.SetActive(true);
     }
 
 
