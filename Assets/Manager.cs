@@ -117,6 +117,7 @@ public class Manager : MonoBehaviour
     }*/
     public void nukeStart()
     {
+        vcam1.Priority = 1;
         if(nukeChecker == true)
         {   
         Instantiate(nukefx, new Vector3(186.6f, 93.6f, -64.29f), Quaternion.identity);
@@ -125,11 +126,10 @@ public class Manager : MonoBehaviour
         }
         nukeChecker = false;
         destroyObjects.SetActive(false);
-        //postNukeObjects.SetActive(true);
-        vcam1.Priority = 1;
+        postNukeObjects.SetActive(true);
+        butterPlate.SetActive(false);
         ragedButter.SetActive(false);
         gameButter.SetActive(true);
-        butterPlate.SetActive(false);
     }
 
 
