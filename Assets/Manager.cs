@@ -26,7 +26,10 @@ public class Manager : MonoBehaviour
     public CinemachineVirtualCamera vcam1;
     public CinemachineVirtualCamera vcam2;
 
+    public GameObject destroyObjects;
+    public GameObject postNukeObjects;
     private bool nukeChecker = true;
+
 
 
 
@@ -58,13 +61,13 @@ public class Manager : MonoBehaviour
             ButterPass.girl = false;
         } */
   
-        if(passCount > 10 && isRaged == false)
+        if(passCount > 2 && isRaged == false) // should be 10
         {
             butterPassText.SetActive(false);
             rageText.SetActive(true);
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && passCount > 10 && nukeChecker == true)
+        if (Input.GetKeyDown(KeyCode.Space) && passCount > 2 && nukeChecker == true)
         {
             calmButter.SetActive(false);
             ragedButter.SetActive(true);
@@ -73,7 +76,7 @@ public class Manager : MonoBehaviour
             Invoke("bubblesFX", 3.0f);
             Invoke("fireFX", 10.0f);
             Invoke("nukeStart", 15.0f);
-            Invoke("nukeStart2", 14.0f);
+            //Invoke("nukeStart2", 14.0f);
 
 
             isRaged = true;
@@ -108,10 +111,10 @@ public class Manager : MonoBehaviour
         firefx.SetActive(true);
     }
 
-    public void nukeStart2()
+    /*public void nukeStart2()
     {
         Instantiate(nukefx, new Vector3(186.6f, 93.6f, -64.29f), Quaternion.identity);
-    }
+    }*/
     public void nukeStart()
     {
         if(nukeChecker == true)
@@ -121,9 +124,12 @@ public class Manager : MonoBehaviour
         Instantiate(nukefx, new Vector3(180.6f, 90.6f, -64.29f), Quaternion.identity);
         }
         nukeChecker = false;
+        destroyObjects.SetActive(false);
+        //postNukeObjects.SetActive(true);
         vcam1.Priority = 1;
         ragedButter.SetActive(false);
         gameButter.SetActive(true);
+        butterPlate.SetActive(false);
     }
 
 

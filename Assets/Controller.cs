@@ -8,9 +8,12 @@ public class Controller : MonoBehaviour
     public float speed = 6.0f;
     public float turnSmoothTime = 0.1f;
     float turnSmoothVelocity;
+    public Animator anim;
+
     void Start()
     {
-        
+        anim = gameObject.GetComponent<Animator>();
+
     }
 
     // Update is called once per frame
@@ -26,6 +29,17 @@ public class Controller : MonoBehaviour
             float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
             transform.rotation = Quaternion.Euler(0f, angle, 0f);
             controller.Move(direction * speed * Time.deltaTime);
+        }
+
+
+        
+        if(direction.magnitude >= 0.1f)
+        {
+            anim.SetBool("isMoving", true);
+        }
+        else
+        {
+            anim.SetBool("isMoving", false);
         }
     }
 }
