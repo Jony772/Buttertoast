@@ -20,10 +20,14 @@ public class rangedCop : MonoBehaviour
     public float sightRange, attackRange;
     public bool playerInSightRange, playerInAttackRange;
 
+
+    public Animator anim;
+
     private void Awake()
     {
         player = GameObject.Find("ButterGame").transform;
         agent = GetComponent<NavMeshAgent>();
+        anim = gameObject.GetComponent<Animator>();
 
     }
 
@@ -74,6 +78,7 @@ public class rangedCop : MonoBehaviour
         {
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
+            anim.SetBool("isShooting", true);
             Debug.Log("cop Attack");
         }
     }
@@ -81,6 +86,10 @@ public class rangedCop : MonoBehaviour
     private void ResetAttack()
     {
         alreadyAttacked = false;
+        anim.SetBool("isShooting", false);
+
+        //anim.SetBool("isShooting", false);
+
     }
 
 
