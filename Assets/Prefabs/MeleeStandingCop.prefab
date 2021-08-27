@@ -753,6 +753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 789961ea3f0fe474e943365e5fa349d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HP: 50
   meleeCop: {fileID: 3388955874226868794}
   dieFX: {fileID: 2958547385209072554, guid: 7b3e25cab370efb4c98bce432551606f, type: 3}
 --- !u!1 &3554437416904972422
@@ -1533,18 +1534,6 @@ Transform:
   m_Father: {fileID: 7502010758670723092}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8919714694264788577
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8577202869854342358}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60474548523cff94ba483d87868d5409, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &4785778509474661686
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1558,6 +1547,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.020534428, y: 0.005958705, z: 0.017169824}
   m_Center: {x: -0.014685458, y: 0.00000006154714, z: 0.01893063}
+--- !u!114 &8919714694264788577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8577202869854342358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60474548523cff94ba483d87868d5409, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8919714692565053831
 PrefabInstance:
   m_ObjectHideFlags: 0
