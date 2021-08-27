@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class standingMeleeStats : MonoBehaviour
 {
-    public int HP = 1;
+    public int HP = 5;
     public GameObject meleeCop;
     public GameObject dieFX;
     private new Vector3 copTransform;
@@ -28,6 +28,7 @@ public class standingMeleeStats : MonoBehaviour
 
     public void OnParticleCollision(GameObject other)
      {
+        if(other.tag != "bullet")
         HP = HP - 1;
      }
 }

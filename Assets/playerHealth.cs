@@ -4,17 +4,17 @@ using UnityEngine;
 
 public class playerHealth : MonoBehaviour
 {
-    public static int HP = 10;
+    public static int playerHP = 10;
     public GameObject butterToast;
-
+    public Collider collid;
     void Start()
     {
-        
+        collid = butterToast.GetComponent<CapsuleCollider>();
     }
 
     void Update()
     {
-        if(HP < 1)
+        if(playerHP < 1)
         {
             Destroy(butterToast);
         }
@@ -24,13 +24,18 @@ public class playerHealth : MonoBehaviour
     {
         if(other.tag == "stick")
         {
-            HP = HP - 2;
+            playerHP = playerHP - 2;
         }
     }
 
     public void OnParticleCollision(GameObject other)
      {
-        HP = HP - 1;
+        Debug.Log("bullet hit");
+        if(other.tag == "bullet")
+        {
+        Debug.Log("bullet hit");
+        playerHP = playerHP - 1;
+        }
      }
 
 }
