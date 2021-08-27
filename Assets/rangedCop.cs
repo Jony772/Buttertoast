@@ -9,6 +9,7 @@ public class rangedCop : MonoBehaviour
     public Transform player;
     public LayerMask whatIsGround, whatIsPlayer;
 
+    public GameObject bullet;
 
     public Vector3 walkPoint;
     bool walkPointSet;
@@ -16,7 +17,7 @@ public class rangedCop : MonoBehaviour
 
     public float timeBetweenAttacks;
     bool alreadyAttacked; 
-
+    public GameObject go;
     public float sightRange, attackRange;
     public bool playerInSightRange, playerInAttackRange;
 
@@ -79,6 +80,11 @@ public class rangedCop : MonoBehaviour
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
             anim.SetBool("isShooting", true);
+            //Quaternion rot = Quaternion.Euler(5.652f,0.651f, -37.101f);
+            //Instantiate(bullet, new Vector3(0.178f, 1.368f, 0.906f), Quaternion.identity);
+             //GameObject go = Instantiate(bullet, new Vector3 (0.178f,1.368f,0.906f), rot) as GameObject; 
+            // go.transform.parent = GameObject.Find("Cop").transform;
+            bullet.SetActive(true);
             Debug.Log("cop Attack");
         }
     }
@@ -87,10 +93,15 @@ public class rangedCop : MonoBehaviour
     {
         alreadyAttacked = false;
         anim.SetBool("isShooting", false);
+        bullet.SetActive(false);
 
         //anim.SetBool("isShooting", false);
 
     }
+
+
+
+
 
 
 
