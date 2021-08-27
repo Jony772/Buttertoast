@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 35032106672845f4eb47e8e468abcbd1, type: 2}
 --- !u!1 &505126
 GameObject:
   m_ObjectHideFlags: 0
@@ -842,7 +842,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 66086144}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftToe_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1308,7 +1308,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 80784342}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1785,7 +1785,7 @@ GameObject:
   - component: {fileID: 100235422}
   - component: {fileID: 100235424}
   - component: {fileID: 100235423}
-  m_Layer: 1
+  m_Layer: 7
   m_Name: FX_PowerBeam_Impact_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6585,7 +6585,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 103898290}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:HeadTop_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6962,7 +6962,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 120455581}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7482,7 +7482,7 @@ GameObject:
   m_Component:
   - component: {fileID: 141426504}
   - component: {fileID: 141426505}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FX_PowerBeam_Glow_Light_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7820,7 +7820,7 @@ GameObject:
   - component: {fileID: 150958588}
   - component: {fileID: 150958590}
   - component: {fileID: 150958589}
-  m_Layer: 1
+  m_Layer: 7
   m_Name: FX_PowerBeam_Impact_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13051,7 +13051,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 162085802}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13390,7 +13390,7 @@ GameObject:
   - component: {fileID: 182670767}
   - component: {fileID: 182670769}
   - component: {fileID: 182670768}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FX_PowerBeam_Flash_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18253,7 +18253,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 187521423}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18477,7 +18477,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 201855185}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19116,7 +19116,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 215325944}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightHandIndex3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19552,7 +19552,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 240825939}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19745,7 +19745,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 251604326}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19939,7 +19939,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 255934265}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20051,7 +20051,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 263756024}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20974,7 +20974,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 289938470}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21410,7 +21410,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 326121676}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21877,7 +21877,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 358085662}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22293,7 +22293,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 373692146}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftHandIndex1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22650,7 +22650,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 391124147}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24438,7 +24438,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 474863571}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24475,7 +24475,7 @@ GameObject:
   m_Component:
   - component: {fileID: 489227596}
   - component: {fileID: 489227597}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: headAim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25335,7 +25335,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 566342166}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftHandIndex2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25950,7 +25950,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 584379535}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26150,7 +26150,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 594904505}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26343,7 +26343,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 600514352}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27439,7 +27439,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 639274346}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29617,7 +29617,7 @@ GameObject:
   - component: {fileID: 729460029}
   - component: {fileID: 729460030}
   - component: {fileID: 729460031}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: ButterGame
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -29867,7 +29867,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 737771010}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35707,7 +35707,7 @@ GameObject:
   - component: {fileID: 825169102}
   - component: {fileID: 825169101}
   - component: {fileID: 825169100}
-  m_Layer: 1
+  m_Layer: 7
   m_Name: Volumetric Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36009,7 +36009,7 @@ GameObject:
   - component: {fileID: 832559145}
   - component: {fileID: 832559147}
   - component: {fileID: 832559146}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FX_PowerBeam_Flash_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41862,7 +41862,7 @@ GameObject:
   - component: {fileID: 892102562}
   - component: {fileID: 892102564}
   - component: {fileID: 892102563}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lazer (1)
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -53840,7 +53840,7 @@ GameObject:
   - component: {fileID: 987432703}
   - component: {fileID: 987432705}
   - component: {fileID: 987432704}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FX_PowerBeam_Glow_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59041,7 +59041,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1003794250}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69348,7 +69348,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1048495093}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69521,7 +69521,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1066712255}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72843,7 +72843,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1227164947}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73321,12 +73321,12 @@ GameObject:
   - component: {fileID: 1269896624}
   - component: {fileID: 1269896623}
   - component: {fileID: 1269896622}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1269896622
 BoxCollider:
@@ -76310,7 +76310,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1413768723}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76783,7 +76783,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1434983927}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -77253,7 +77253,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1460218602}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78417,7 +78417,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1548542899}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightToe_End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79201,7 +79201,7 @@ GameObject:
   - component: {fileID: 1591523780}
   - component: {fileID: 1591523782}
   - component: {fileID: 1591523781}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FX_PowerBeam_Glow_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84626,7 +84626,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1606589724}
   - component: {fileID: 1606589723}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Rig 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84671,7 +84671,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1615729660}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftHandIndex4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84787,7 +84787,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1630742641}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85366,7 +85366,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1667111219}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -85934,7 +85934,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1713438010}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:LeftHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86567,7 +86567,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1738606555}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86679,7 +86679,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1743629332}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Spine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88358,7 +88358,7 @@ GameObject:
   - component: {fileID: 1832412367}
   - component: {fileID: 1832412369}
   - component: {fileID: 1832412368}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lazer (2)
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -93301,7 +93301,7 @@ GameObject:
   - component: {fileID: 1836550200}
   - component: {fileID: 1836550199}
   - component: {fileID: 1836550198}
-  m_Layer: 1
+  m_Layer: 7
   m_Name: Volumetric Spot Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93828,7 +93828,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1853132019}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96155,7 +96155,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2017738387}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97916,7 +97916,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2110706272}
   - component: {fileID: 2110706273}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FX_PowerBeam_Glow_Light_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98166,7 +98166,7 @@ GameObject:
   - component: {fileID: 2121919695}
   - component: {fileID: 2121919697}
   - component: {fileID: 2121919696}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: _cube_curve.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98593,7 +98593,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2129278633}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: mixamorig:RightHandThumb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115183,8 +115183,8 @@ GameObject:
   m_Component:
   - component: {fileID: 543450651754688190}
   - component: {fileID: 5866666020096652484}
-  - component: {fileID: 919132147753333766}
   - component: {fileID: 919132147753333765}
+  - component: {fileID: 919132147753333766}
   m_Layer: 0
   m_Name: Cop
   m_TagString: Untagged
@@ -115223,9 +115223,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 919132147753333764}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2b41e6866e851740a7b806a3e0c62a8, type: 3}
+  m_Script: {fileID: 11500000, guid: 9c3fb4b43e8d346459277d752d9c590f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  agent: {fileID: 919132147753333765}
+  player: {fileID: 729460028}
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 64
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 128
+  walkPoint: {x: 0, y: 0, z: 0}
+  walkPointRange: 5
+  timeBetweenAttacks: 0.5
+  sightRange: 20
+  attackRange: 12
+  playerInSightRange: 0
+  playerInAttackRange: 0
 --- !u!1 &919132148088474107
 GameObject:
   m_ObjectHideFlags: 0
@@ -131036,7 +131051,7 @@ GameObject:
   - component: {fileID: 8199880890874791959}
   - component: {fileID: 8288158167273301845}
   - component: {fileID: 8288509191463535153}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FX_PowerBeam_Glow_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131053,7 +131068,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8199447578262134689}
   - component: {fileID: 8089667109844609235}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FX_PowerBeam_Glow_Light_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131071,7 +131086,7 @@ GameObject:
   - component: {fileID: 8199726425094533413}
   - component: {fileID: 8288800220048768123}
   - component: {fileID: 8287019279299482021}
-  m_Layer: 1
+  m_Layer: 7
   m_Name: FX_PowerBeam_Impact_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131089,7 +131104,7 @@ GameObject:
   - component: {fileID: 8202532009781871833}
   - component: {fileID: 8287942840151473019}
   - component: {fileID: 8287714409863216067}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FX_PowerBeam_Flash_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131107,7 +131122,7 @@ GameObject:
   - component: {fileID: 8199401979740137809}
   - component: {fileID: 8288142788309741643}
   - component: {fileID: 8288452359839327797}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Lazer
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}

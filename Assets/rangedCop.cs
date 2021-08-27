@@ -22,7 +22,7 @@ public class rangedCop : MonoBehaviour
 
     private void Awake()
     {
-        player = GaneObject.Find("ButterGame").transform;
+        player = GameObject.Find("ButterGame").transform;
         agent = GetComponent<NavMeshAgent>();
 
     }
@@ -30,8 +30,8 @@ public class rangedCop : MonoBehaviour
 
     void Update()
     {
-        playerInSightRange = physics.CheckSphere(Transform.position, sightRange, whatIsPlayer);
-        playerInAttackRange = physics.CheckSphere(Transform.position, attackRange, whatIsPlayer);
+        playerInSightRange = Physics.CheckSphere(transform.position, sightRange, whatIsPlayer);
+        playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
 
 
         if(!playerInSightRange && !playerInAttackRange) Patroling();
@@ -55,7 +55,7 @@ public class rangedCop : MonoBehaviour
         float randomZ = Random.Range(-walkPointRange, walkPointRange);
         float randomX = Random.Range(-walkPointRange, walkPointRange);
         walkPoint = new Vector3 (transform.position.x + randomX, transform.position.y, transform.position.z + randomZ);
-        if(physics.Raycast(walkPoint, -transform.up, 2f, whatIsGround))
+        if(Physics.Raycast(walkPoint, -transform.up, 2f, whatIsGround))
             walkPointSet = true;
     }
 
