@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class playerHealth : MonoBehaviour
 {
-    public static int playerHP = 10;
+    public static int playerHP = 20;
     public GameObject butterToast;
     public Collider collid;
+    public Slider slider;
+
     void Start()
     {
         collid = butterToast.GetComponent<CapsuleCollider>();
@@ -18,6 +21,7 @@ public class playerHealth : MonoBehaviour
         {
             Destroy(butterToast);
         }
+        slider.value = playerHP;
     }
 
     public void OnTriggerEnter(Collider other)
