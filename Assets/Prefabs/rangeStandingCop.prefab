@@ -789,6 +789,8 @@ GameObject:
   - component: {fileID: 677000441328305030}
   - component: {fileID: 6111046219208164167}
   - component: {fileID: 6111046219208164164}
+  - component: {fileID: 467220469208855818}
+  - component: {fileID: 3027131235739872453}
   m_Layer: 0
   m_Name: rangeStandingCop
   m_TagString: Untagged
@@ -884,6 +886,34 @@ MonoBehaviour:
   playerInSightRange: 0
   playerInAttackRange: 0
   anim: {fileID: 0}
+--- !u!65 &467220469208855818
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6111046219208164166}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.9999999, y: 1.6644101, z: 0.9999999}
+  m_Center: {x: 0, y: 1.0491068, z: 0}
+--- !u!114 &3027131235739872453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6111046219208164166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 789961ea3f0fe474e943365e5fa349d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HP: 1
+  meleeCop: {fileID: 6111046219208164166}
+  dieFX: {fileID: 2958547385209072554, guid: 7b3e25cab370efb4c98bce432551606f, type: 3}
 --- !u!1 &6111046219409899193
 GameObject:
   m_ObjectHideFlags: 0
@@ -1647,13 +1677,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81482698959c9bb4fa83712aee1f503f, type: 3}
---- !u!4 &1745740155964508313 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7958281542389308099, guid: 81482698959c9bb4fa83712aee1f503f, type: 3}
-  m_PrefabInstance: {fileID: 8524016163260191322}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1742487512657199205 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7955024492780278335, guid: 81482698959c9bb4fa83712aee1f503f, type: 3}
+  m_PrefabInstance: {fileID: 8524016163260191322}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1745740155964508313 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7958281542389308099, guid: 81482698959c9bb4fa83712aee1f503f, type: 3}
   m_PrefabInstance: {fileID: 8524016163260191322}
   m_PrefabAsset: {fileID: 0}
