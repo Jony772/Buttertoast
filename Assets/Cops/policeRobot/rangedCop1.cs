@@ -98,6 +98,7 @@ public class rangedCop1 : MonoBehaviour
         alreadyAttacked = false;
         //anim.SetBool("isMoving", false);
         bullet.SetActive(false);
+        collid.enabled = false;
 
         //anim.SetBool("isShooting", false);
 
