@@ -879,7 +879,7 @@ MonoBehaviour:
   bullet: {fileID: 1742487512657199205}
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 5
-  timeBetweenAttacks: 1.2
+  timeBetweenAttacks: 1.25
   go: {fileID: 6111046219208164166}
   sightRange: 200
   attackRange: 25
