@@ -793,7 +793,7 @@ GameObject:
   - component: {fileID: 3027131235739872453}
   m_Layer: 0
   m_Name: rangeStandingCop
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -881,7 +881,7 @@ MonoBehaviour:
   walkPointRange: 5
   timeBetweenAttacks: 1.2
   go: {fileID: 6111046219208164166}
-  sightRange: 40
+  sightRange: 70
   attackRange: 25
   playerInSightRange: 0
   playerInAttackRange: 0
