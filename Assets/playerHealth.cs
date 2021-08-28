@@ -22,6 +22,8 @@ public class playerHealth : MonoBehaviour
             Destroy(butterToast);
         }
         slider.value = playerHP;
+        if(playerHP > 20)
+            playerHP = 20;
     }
 
     public void OnTriggerEnter(Collider other)

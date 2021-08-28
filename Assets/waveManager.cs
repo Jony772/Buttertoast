@@ -50,7 +50,7 @@ public class waveManager : MonoBehaviour
                          waveNameparent.SetActive(true);
 
                          canContinue =false;
-                         Invoke("SpawnNextWave", 8);
+                         Invoke("SpawnNextWave", 4);
                          playerHealth.playerHP = playerHealth.playerHP + 5;
                     }
             }

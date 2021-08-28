@@ -723,7 +723,7 @@ MonoBehaviour:
   walkPointRange: 5
   timeBetweenAttacks: 1.2
   go: {fileID: 3388955874226868794}
-  sightRange: 70
+  sightRange: 200
   attackRange: 5
   playerInSightRange: 0
   playerInAttackRange: 0
