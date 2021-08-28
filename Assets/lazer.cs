@@ -22,7 +22,6 @@ public class lazer : MonoBehaviour
             if(energy > 0f)
             {
                 lazer1.SetActive(true);
-
             }
             else
             {
