@@ -51,6 +51,7 @@ public class waveManager : MonoBehaviour
 
                          canContinue =false;
                          Invoke("SpawnNextWave", 8);
+                         playerHealth.playerHP = playerHealth.playerHP + 5;
                     }
             }
             else

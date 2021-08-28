@@ -22,12 +22,17 @@ public class Manager : MonoBehaviour
     public GameObject bubblesfx;
     public GameObject firefx;
     public GameObject nukefx; 
-
+    public GameObject spawner;
     public CinemachineVirtualCamera vcam1;
     public CinemachineVirtualCamera vcam2;
 
     public GameObject destroyObjects;
     public GameObject postNukeObjects;
+
+    public GameObject healthBar;
+    public GameObject energyBar;
+
+
     private bool nukeChecker = true;
 
 
@@ -130,6 +135,12 @@ public class Manager : MonoBehaviour
         butterPlate.SetActive(false);
         ragedButter.SetActive(false);
         gameButter.SetActive(true);
+        spawner.SetActive(true);
+        energyBar.SetActive(true);
+        healthBar.SetActive(true);
+
+        
+        
     }
 
 

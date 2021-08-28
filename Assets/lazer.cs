@@ -16,25 +16,30 @@ public class lazer : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKey(KeyCode.Space))
+        slider.value = energy;
+        if(Input.GetKey(KeyCode.Space) && energy > 0.0f)
         {
             energy = energy - 0.12f;
-            if(energy > 0f)
-            {
-                lazer1.SetActive(true);
-            }
-            else
-            {
-                lazer1.SetActive(false);
-            }
+           // if(energy > 0f)
+            //{
+            lazer1.SetActive(true);
+            //}
+            //else
+            //{
+              //  lazer1.SetActive(false);
+            //}
         }
         else
         {
-            lazer1.SetActive(false);
-            energy = energy + 0.2f;
+        lazer1.SetActive(false);
+        energy = energy + 0.2f;
+            //if(energy == 100.0f)
+               // return;
         }
+        if(energy > 100.0f)
+            energy = 100.0f;
 
-        slider.value = energy;
+
 
     }
 }
