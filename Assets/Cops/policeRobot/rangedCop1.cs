@@ -8,7 +8,7 @@ public class rangedCop1 : MonoBehaviour
     public NavMeshAgent agent;
     public Transform player;
     public LayerMask whatIsGround, whatIsPlayer;
-    
+    public Collider collid;
     public GameObject bullet;
 
     public Vector3 walkPoint;
@@ -29,7 +29,7 @@ public class rangedCop1 : MonoBehaviour
         player = GameObject.Find("ButterGame").transform;
         agent = GetComponent<NavMeshAgent>();
         anim = gameObject.GetComponent<Animator>();
-
+        collid = GetComponent<CapsuleCollider>();
     }
 
 
@@ -69,6 +69,7 @@ public class rangedCop1 : MonoBehaviour
     {
         agent.SetDestination(player.position);
         anim.SetBool("isMoving", true);
+        collid.enabled = false;
     }
 
     private void AttackPlayer()
@@ -86,6 +87,8 @@ public class rangedCop1 : MonoBehaviour
              //GameObject go = Instantiate(bullet, new Vector3 (0.178f,1.368f,0.906f), rot) as GameObject; 
             // go.transform.parent = GameObject.Find("Cop").transform;
             bullet.SetActive(true);
+            collid.enabled = true;
+
             Debug.Log("cop Attack");
         }
     }

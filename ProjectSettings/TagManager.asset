@@ -7,6 +7,7 @@ TagManager:
   - stick
   - bullet
   - enemy
+  - bossTarget
   layers:
   - Default
   - TransparentFX
