@@ -753,7 +753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 789961ea3f0fe474e943365e5fa349d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 50
+  HP: 25
   meleeCop: {fileID: 3388955874226868794}
   dieFX: {fileID: 2958547385209072554, guid: 7b3e25cab370efb4c98bce432551606f, type: 3}
 --- !u!1 &3554437416904972422

@@ -19,7 +19,7 @@ public class lazer : MonoBehaviour
         slider.value = energy;
         if(Input.GetKey(KeyCode.Space) && energy > 0.0f)
         {
-            energy = energy - 0.12f;
+            energy = energy - 0.24f;
            // if(energy > 0f)
             //{
             lazer1.SetActive(true);
@@ -32,7 +32,7 @@ public class lazer : MonoBehaviour
         else
         {
         lazer1.SetActive(false);
-        energy = energy + 0.2f;
+        energy = energy + 0.4f;
             //if(energy == 100.0f)
                // return;
         }
