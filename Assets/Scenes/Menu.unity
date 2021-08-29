@@ -1243,7 +1243,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.21
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -2618,7 +2618,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Buttertoast's Revenge
+  m_text: Buttertoast
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f0e8306adc1a9e2488b3c36dd0aaa3a4, type: 2}
   m_sharedMaterial: {fileID: -8425322141654351086, guid: f0e8306adc1a9e2488b3c36dd0aaa3a4, type: 2}
