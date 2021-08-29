@@ -32,4 +32,15 @@ public class mainMenu : MonoBehaviour
     {
         audioSucess.SetActive(true);
     }
+
+    public void Menu()
+    {
+        SceneManager.LoadScene(0);
+    }
+
+    public void Restart()
+    {
+        
+    }
+
 }

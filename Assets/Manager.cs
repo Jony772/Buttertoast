@@ -33,7 +33,6 @@ public class Manager : MonoBehaviour
     public GameObject healthBar;
     public GameObject energyBar;
 
-
     private bool nukeChecker = true;
 
 

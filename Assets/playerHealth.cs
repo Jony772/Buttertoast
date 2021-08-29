@@ -9,6 +9,7 @@ public class playerHealth : MonoBehaviour
     public GameObject butterToast;
     public Collider collid;
     public Slider slider;
+    public GameObject menuDie;
 
     void Start()
     {
@@ -20,6 +21,8 @@ public class playerHealth : MonoBehaviour
         if(playerHP < 1)
         {
             Destroy(butterToast);
+            menuDie.SetActive(true);
+            playerHP = 20;
         }
         slider.value = playerHP;
         if(playerHP > 20)
