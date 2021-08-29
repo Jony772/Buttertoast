@@ -66,13 +66,13 @@ public class Manager : MonoBehaviour
             ButterPass.girl = false;
         } */
   
-        if(passCount > 2 && isRaged == false) // should be 10
+        if(passCount > 8 && isRaged == false) // should be 10
         {
             butterPassText.SetActive(false);
             rageText.SetActive(true);
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && passCount > 2 && nukeChecker == true)
+        if (Input.GetKeyDown(KeyCode.Space) && passCount > 8 && nukeChecker == true)
         {
             calmButter.SetActive(false);
             ragedButter.SetActive(true);
