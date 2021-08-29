@@ -11,7 +11,8 @@ public class Manager : MonoBehaviour
     public GameObject butterPlate;
     public GameObject rageText;
     public static int passCount = 0;
-
+    public GameObject oldAudio;
+    public GameObject newAudio;
     public GameObject calmButter;
     public GameObject ragedButter;
     public GameObject gameButter;
@@ -44,7 +45,7 @@ public class Manager : MonoBehaviour
     {
         InvokeRepeating("ButterPassGirl", 5, 4);
         InvokeRepeating("ButterPassDude", 8, 6);
-
+        AudioSource audio = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -138,6 +139,8 @@ public class Manager : MonoBehaviour
         spawner.SetActive(true);
         energyBar.SetActive(true);
         healthBar.SetActive(true);
+        oldAudio.SetActive(false);
+        newAudio.SetActive(true);
 
         
         
