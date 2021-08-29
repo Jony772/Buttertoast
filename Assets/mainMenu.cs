@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class mainMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject audioSucess;
     void Start()
     {
         
@@ -26,5 +26,10 @@ public class mainMenu : MonoBehaviour
     {
         Application.Quit();
         Debug.Log("quit");
+    }
+
+    public void pressButon()
+    {
+        audioSucess.SetActive(true);
     }
 }
